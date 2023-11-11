@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Italbytz.Ports.Algorithms", "Italbytz.Ports.Algorithms\Italbytz.Ports.Algorithms.csproj", "{A540B085-BB0D-4ADE-84D5-E10BCA433FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Italbytz.Ports.Algorithms.Tests", "Italbytz.Ports.Algorithms.Tests\Italbytz.Ports.Algorithms.Tests.csproj", "{38498C3C-DF05-425A-B09C-0ED39FEE9092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A540B085-BB0D-4ADE-84D5-E10BCA433FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A540B085-BB0D-4ADE-84D5-E10BCA433FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A540B085-BB0D-4ADE-84D5-E10BCA433FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A540B085-BB0D-4ADE-84D5-E10BCA433FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38498C3C-DF05-425A-B09C-0ED39FEE9092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38498C3C-DF05-425A-B09C-0ED39FEE9092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38498C3C-DF05-425A-B09C-0ED39FEE9092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38498C3C-DF05-425A-B09C-0ED39FEE9092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4755A679-61A1-4182-9568-1FFD79304EF6}
+	EndGlobalSection
+EndGlobal
