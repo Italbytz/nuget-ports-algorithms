@@ -21,20 +21,26 @@ namespace Italbytz.Ports.Algorithms
         /// </summary>
         public TState InitialState { get; }
 
-        /// <summary>
+        /*/// <summary>
         /// Returns the description of the possible actions available to the agent at a given state.
         /// </summary>
         /// <param name="state">The given state.</param>
         /// <returns>List of possible actions.</returns>
-        public List<TAction> GetActions(TState state);
+        public List<TAction> GetActions(TState state);*/
 
-        /// Determines whether a given state is a goal state.
+        public Func<TState, List<TAction>> Actions { get; }
+
+        /*/// Determines whether a given state is a goal state.
         /// <param name="state">The given state.</param>
         /// <returns>True, if the state is a goal state.</returns>
-        public bool TestGoal(TState state);
+        public bool TestGoal(TState state);*/
+
+        public Func<TState, bool> GoalTest { get; }
 
         /// Returns the step cost of taking an action in a state to reach state.
-        public double GetStepCosts(TState state, TAction action, TState stateDelta);
+        //public double GetStepCosts(TState state, TAction action, TState stateDelta);
+
+        public Func<TState, TAction, TState, double> StepCosts { get; }
 
     }
 }
