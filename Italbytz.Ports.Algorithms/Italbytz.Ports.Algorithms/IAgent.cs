@@ -9,6 +9,8 @@ namespace Italbytz.Ports.Algorithms
 {
     public interface IAgent<TPercept, TAction>
     {
+        public bool Alive { get; }
+        TAction? Act(TPercept percept);
     }
 }
 
