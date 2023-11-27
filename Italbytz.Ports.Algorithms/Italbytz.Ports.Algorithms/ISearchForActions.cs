@@ -20,6 +20,8 @@ namespace Italbytz.Ports.Algorithms
     /// <typeparam name="TAction">The type of the actions to be used to navigate through the state space</typeparam>
     public interface ISearchForActions<TState, TAction>
     {
+        public IMetrics Metrics { get; }
+
         /// <summary>
         /// Returns a list of actions leading to a goal state if a goal was found,
         /// otherwise empty.Note that the list can be empty which means that the

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Italbytz.Ports.Algorithms
 {
-    public interface INodeFactory
+    public interface INodeFactory<TState, TAction>
     {
     }
 }
