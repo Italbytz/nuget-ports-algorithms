@@ -29,7 +29,7 @@ namespace Italbytz.Ports.Algorithms
         /// </summary>
         /// <param name="problem">the search problem</param>
         /// <returns>a (possibly empty) list of actions or empty</returns>
-        public List<TAction>? FindActions(IProblem<TState, TAction> problem);
+        public IEnumerable<TAction>? FindActions(IProblem<TState, TAction> problem);
 
     }
 }

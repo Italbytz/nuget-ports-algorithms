@@ -5,6 +5,8 @@
  */
 
 using System;
+using Italbytz.Adapters.Algorithms.Search.Framework;
+
 namespace Italbytz.Ports.Algorithms
 {
     /// <summary>
@@ -24,6 +26,6 @@ namespace Italbytz.Ports.Algorithms
 
         Func<TState, TAction, TState> Result { get; }
 
+        bool TestSolution(INode<TState, TAction> node);
     }
 }
-
