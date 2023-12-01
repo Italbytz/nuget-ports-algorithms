@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Italbytz.Ports.Algorithms
+namespace Italbytz.Ports.Algorithms.AI.Agent
 {
     public interface IEnvironment<TPercept, TAgent>
     {

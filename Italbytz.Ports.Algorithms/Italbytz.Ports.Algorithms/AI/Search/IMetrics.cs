@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Italbytz.Ports.Algorithms
+namespace Italbytz.Ports.Algorithms.AI.Search
 {
     public interface IMetrics
     {

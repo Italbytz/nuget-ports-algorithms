@@ -6,8 +6,9 @@
 
 using System;
 using System.Collections.Generic;
+using Italbytz.Ports.Algorithms.AI.Problem;
 
-namespace Italbytz.Ports.Algorithms
+namespace Italbytz.Ports.Algorithms.AI.Search
 {
     /// <summary>
     /// Interface for all search algorithms which store at least a part of the

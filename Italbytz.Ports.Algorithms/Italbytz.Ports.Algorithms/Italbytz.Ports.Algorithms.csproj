@@ -16,4 +16,16 @@
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
 		<LangVersion>9.0</LangVersion>
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="AI\" />
+	  <None Remove="AI\Agent\" />
+	  <None Remove="AI\Search\" />
+	  <None Remove="AI\Problem\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="AI\" />
+	  <Folder Include="AI\Agent\" />
+	  <Folder Include="AI\Search\" />
+	  <Folder Include="AI\Problem\" />
+	</ItemGroup>
 </Project>

@@ -5,12 +5,10 @@
  */
 
 using System;
-namespace Italbytz.Ports.Algorithms
+namespace Italbytz.Ports.Algorithms.AI.Agent
 {
-    public interface IAgent<TPercept, TAction>
+    public interface IPercept
     {
-        public bool Alive { get; }
-        TAction? Act(TPercept percept);
     }
 }
 

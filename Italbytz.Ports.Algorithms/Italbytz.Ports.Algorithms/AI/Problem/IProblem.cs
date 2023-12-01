@@ -5,9 +5,9 @@
  */
 
 using System;
-using Italbytz.Adapters.Algorithms.Search.Framework;
+using Italbytz.Ports.Algorithms.AI.Search;
 
-namespace Italbytz.Ports.Algorithms
+namespace Italbytz.Ports.Algorithms.AI.Problem
 {
     /// <summary>
     /// A formal problem definition.

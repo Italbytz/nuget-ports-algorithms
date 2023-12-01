@@ -5,7 +5,9 @@
  */
 
 using System;
-namespace Italbytz.Ports.Algorithms
+using Italbytz.Ports.Algorithms.AI.Problem;
+
+namespace Italbytz.Ports.Algorithms.AI.Search
 {
     /// <summary>
     /// Interface for all search algorithms which forget the exploration history and
