@@ -25,7 +25,6 @@
 	<ItemGroup>
 	  <Folder Include="AI\" />
 	  <Folder Include="AI\Agent\" />
-	  <Folder Include="AI\Search\" />
 	  <Folder Include="AI\Problem\" />
 	</ItemGroup>
 </Project>
