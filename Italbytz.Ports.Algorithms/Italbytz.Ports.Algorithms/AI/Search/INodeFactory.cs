@@ -13,6 +13,8 @@ namespace Italbytz.Ports.Algorithms.AI.Search
 
         public bool UseParentLinks { get; set; }
 
+        public void AddNodeListener(Action<INode<TState, TAction>> listener);
+
     }
 }
 
