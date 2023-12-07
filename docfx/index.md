@@ -1,0 +1,7 @@
+---
+_layout: landing
+---
+
+# About
+
+This package mainly provides ``Interfaces`` for the algorithms discussed in [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu). Most of the code is based on code from the official [AIMA repositories](https://github.com/aimacode). It follows the [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) in providing ports. Example implementations may be found in [Italbytz.Adapters.Algorithms](https://github.com/Italbytz/nuget-adapters-algorithms).  
