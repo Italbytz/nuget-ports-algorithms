@@ -10,6 +10,7 @@
 		<PackOnBuild>true</PackOnBuild>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReadmeFile>introduction.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/Italbytz/nuget-ports-algorithms</RepositoryUrl>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 		<LangVersion>9.0</LangVersion>
@@ -29,6 +30,6 @@
 	  <Folder Include="AI\Problem\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <None Include="..\..\docfx\docs/introduction.md" Pack="true" PackagePath="\"/>
+	  <None Include="../../docfx/docs/introduction.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 </Project>
