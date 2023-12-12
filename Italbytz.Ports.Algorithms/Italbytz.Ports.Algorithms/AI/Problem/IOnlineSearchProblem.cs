@@ -19,10 +19,19 @@ namespace Italbytz.Ports.Algorithms.AI.Problem
         /// </summary>
         public TState InitialState { get; }
         
+        /// <summary>
+        /// The description of the possible actions available to the agent
+        /// </summary>
         public Func<TState, List<TAction>> Actions { get; }
         
+        /// <summary>
+        /// Determines whether a given state is a goal state.
+        /// </summary>
         public Func<TState, bool> GoalTest { get; }
         
+        /// <summary>
+        /// The step cost of taking a given action in an given state to reach a given state.
+        /// </summary>
         public Func<TState, TAction, TState, double> StepCosts { get; }
 
     }

@@ -14,6 +14,9 @@ namespace Italbytz.Ports.Algorithms.AI.Problem
     /// <typeparam name="TAction">The type of the actions to be used to navigate through the state space</typeparam>
     public interface IProblem<TState, TAction> : IOnlineSearchProblem<TState, TAction>
     {
+        /// <summary>
+        /// Description of what each action does.
+        /// </summary>
         Func<TState, TAction, TState> Result { get; }
 
         /// <summary>
