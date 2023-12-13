@@ -9,7 +9,7 @@ namespace Italbytz.Ports.Algorithms.AI.Agent
     /// </summary>
     /// <typeparam name="TPercept">Type which is used to represent percepts</typeparam>
     /// <typeparam name="TAction">Type which is used to represent actions</typeparam>
-    public interface IAgent<TPercept, TAction>
+    public interface IAgent<in TPercept, out TAction>
     {
         /// <summary>
         /// Life-cycle indicator as to the liveness of an Agent.
@@ -22,7 +22,7 @@ namespace Italbytz.Ports.Algorithms.AI.Agent
         /// </summary>
         /// <param name="percept">The current percept of a sequence perceived by the Agent.</param>
         /// <returns>The Action to be taken in response to the currently perceived percept. Empty replaces NoOp in earlier implementations.</returns>
-        TAction? Act(TPercept percept);
+        TAction? Act(TPercept? percept);
     }
 }
 
