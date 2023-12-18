@@ -8,11 +8,19 @@ namespace Italbytz.Ports.Algorithms.AI.Search
     {
         public string Get(string name);
 
-        public void Set(String name, int i);
+        public void Set(string name, int i);
+        
+        public void Set(string name, long l);
+        
+        public void Set(string name, double d);
 
         public void IncrementInt(string name);
 
         public int GetInt(string name);
+        
+        public double GetDouble(string name);
+        
+        public long GetLong(string name);
     }
 }
 
