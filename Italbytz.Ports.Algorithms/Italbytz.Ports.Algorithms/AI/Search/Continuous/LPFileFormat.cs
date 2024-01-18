@@ -2,6 +2,6 @@ namespace Italbytz.Ports.Algorithms.AI.Search.Continuous
 {
     public enum LPFileFormat
     {
-        lp_solve
+        lp_solve, MPS
     }
 }
